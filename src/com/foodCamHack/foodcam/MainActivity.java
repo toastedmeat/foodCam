@@ -1,6 +1,7 @@
 package com.foodCamHack.foodcam;
 
 import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -11,7 +12,24 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.splash);
+        
+        Thread logoTimer = new Thread(){
+        	public void run(){
+        		try{
+        			sleep(2000);
+        			Intent menuIntent = new Intent("com.foodcamhack.foodcam.MENU");
+        			startActivity(menuIntent);
+        		} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+        		finally {
+        			finish();
+        		}
+        	}
+        };
+        logoTimer.start();
     }
 
 
