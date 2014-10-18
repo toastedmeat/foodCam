@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">foodCam</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="title">FoodCam</string>
     <string name="action_settings">Settings</string>
 
 </resources>
