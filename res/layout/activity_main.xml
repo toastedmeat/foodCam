@@ -6,36 +6,36 @@
     android:weightSum="3" >
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/explore_button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#70DBDB"
         android:text="@string/explorebutton"
-        android:layout_weight="1"
-        android:textSize="30dp" 
-        android:textStyle="bold"
         android:textColor="#FFFFFF"
-        android:background="#70DBDB" />
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/discover_button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#FFAD85"
         android:text="@string/discoverbutton"
-        android:layout_weight="1"
-        android:textSize="30dp" 
-        android:textStyle="bold"
         android:textColor="#FFFFFF"
-        android:background="#FFAD85" />
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/camera_button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/camerabutton"
         android:layout_weight="1"
-        android:textSize="30dp" 
-        android:textStyle="bold"
+        android:background="#D0D0D0"
+        android:text="@string/camerabutton"
         android:textColor="#FFFFFF"
-        android:background="#D0D0D0"  />
+        android:textSize="30dp"
+        android:textStyle="bold" />
 
 </LinearLayout>
