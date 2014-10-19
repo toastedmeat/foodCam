@@ -16,6 +16,9 @@ public final class R {
         public static final int abc_slide_out_bottom=0x7f040004;
         public static final int abc_slide_out_top=0x7f040005;
     }
+    public static final class array {
+        public static final int androidcolors=0x7f0c0000;
+    }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -858,10 +861,21 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f060002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f070003;
+        public static final int abc_search_url_text_holo=0x7f07000e;
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
+        public static final int black=0x7f07000d;
+        public static final int blue=0x7f070003;
+        public static final int darkblue=0x7f070008;
+        public static final int darkgreen=0x7f07000a;
+        public static final int darkorange=0x7f07000b;
+        public static final int darkpurple=0x7f070009;
+        public static final int darkred=0x7f07000c;
+        public static final int green=0x7f070005;
+        public static final int orange=0x7f070006;
+        public static final int purple=0x7f070004;
+        public static final int red=0x7f070007;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1199,7 +1213,7 @@ containing a value of this type.
         public static final int support_simple_spinner_dropdown_item=0x7f03001a;
     }
     public static final class menu {
-        public static final int main=0x7f0c0000;
+        public static final int main=0x7f0d0000;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1244,7 +1258,7 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int action_settings=0x7f0a000f;
         public static final int app_name=0x7f0a000d;
-        public static final int hello_world=0x7f0a000e;
+        public static final int title=0x7f0a000e;
     }
     public static final class style {
         /** 

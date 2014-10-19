@@ -1,2 +1,1 @@
 Hi
-from eric
