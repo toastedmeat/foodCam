@@ -13,6 +13,9 @@ public class menu extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+
+        
+        getActionBar().setTitle("Food Cam");
 		
 		Button explbut = (Button) findViewById(R.id.explore_button);
 		explbut.setOnClickListener(new View.OnClickListener() {

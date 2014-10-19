@@ -1092,8 +1092,18 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_launcher=0x7f020057;
-        public static final int splashbg=0x7f020058;
+        public static final int antartica1=0x7f020057;
+        public static final int antartica10=0x7f020058;
+        public static final int antartica2=0x7f020059;
+        public static final int antartica3=0x7f02005a;
+        public static final int antartica4=0x7f02005b;
+        public static final int antartica5=0x7f02005c;
+        public static final int antartica6=0x7f02005d;
+        public static final int antartica7=0x7f02005e;
+        public static final int antartica8=0x7f02005f;
+        public static final int antartica9=0x7f020060;
+        public static final int ic_launcher=0x7f020061;
+        public static final int splashbg=0x7f020062;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1107,7 +1117,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050040;
+        public static final int action_settings=0x7f050042;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1124,11 +1134,13 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
         public static final int explore_button=0x7f05003c;
+        public static final int gallery1=0x7f050040;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
         public static final int icon=0x7f05002a;
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
+        public static final int imageView1=0x7f050041;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
         public static final int middle=0x7f050012;
