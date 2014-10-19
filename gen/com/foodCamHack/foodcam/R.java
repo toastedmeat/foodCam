@@ -861,7 +861,7 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f060002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f07000e;
+        public static final int abc_search_url_text_holo=0x7f07000f;
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
@@ -872,6 +872,7 @@ containing a value of this type.
         public static final int darkorange=0x7f07000b;
         public static final int darkpurple=0x7f070009;
         public static final int darkred=0x7f07000c;
+        public static final int exploreBarColor=0x7f07000e;
         public static final int green=0x7f070005;
         public static final int orange=0x7f070006;
         public static final int purple=0x7f070004;
