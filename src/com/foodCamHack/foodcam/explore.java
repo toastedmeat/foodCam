@@ -25,18 +25,16 @@ public class explore extends Activity {
 			R.drawable.antartica7, R.drawable.antartica8,
 			R.drawable.antartica9, R.drawable.antartica10 };
 	private ImageView imageView;
-	private int currentViewId = -1;
 	
 	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.explore_screen);
 		
 		int currentAPIVersion = android.os.Build.VERSION.SDK_INT;
 		if(currentAPIVersion >= android.os.Build.VERSION_CODES.HONEYCOMB){
 			getActionBar().setDisplayHomeAsUpEnabled(true);
-			getActionBar().setTitle("EXPLORE");
+			getActionBar().setTitle("Explore");
 			getActionBar().setBackgroundDrawable(new ColorDrawable(0xFF70DBDB));
 		}
 		setContentView(R.layout.explore_screen);
@@ -50,8 +48,8 @@ public class explore extends Activity {
 			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
 					long arg3) {
 				// TODO Auto-generated method stub
-				//Toast.makeText(getApplicationContext(), "pic: " + arg2,
-				//		Toast.LENGTH_SHORT).show();
+				Toast.makeText(getApplicationContext(), "pic: " + arg2,
+						Toast.LENGTH_SHORT).show();
 				imageView.setImageResource(pics[arg2]);
 			}
 		});
