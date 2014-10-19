@@ -32,8 +32,13 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+<<<<<<< HEAD
         android:background="#D0D0D0"
         android:text="@string/camerabutton"
+=======
+        android:textSize="30dp"
+        android:textStyle="bold"
+>>>>>>> c91294c633e26b2ecc0b2331e72a53714d13780b
         android:textColor="#FFFFFF"
         android:textSize="30dp"
         android:textStyle="bold" />
