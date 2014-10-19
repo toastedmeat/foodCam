@@ -24,7 +24,6 @@ public class discover extends Activity {
 			getActionBar().setTitle("Discover");
 			getActionBar().setBackgroundDrawable(new ColorDrawable(0xFFFFAD85));
 		}
-		setContentView(R.layout.explore_screen);
 		
 	}
 
