@@ -23,6 +23,26 @@ public class menu extends Activity {
 				startActivity(new Intent("com.foodcamhack.foodcam.EXPLORE"));
 			}
 		});
+		
+		Button discBut = (Button) findViewById(R.id.discover_button);
+		discBut.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				startActivity(new Intent("com.foodcamhack.foodcam.DISCOVER"));
+			}
+		});
+		
+		Button camBut = (Button) findViewById(R.id.camera_button);
+		camBut.setOnClickListener(new View.OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				startActivity(new Intent("com.foodcamhack.foodcam.CAMERA"));
+			}
+		});
 	}
 
 	@Override
