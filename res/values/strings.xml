@@ -4,5 +4,8 @@
     <string name="app_name">foodCam</string>
     <string name="title">FoodCam</string>
     <string name="action_settings">Settings</string>
+    <string name="explorebutton">EXPLORE</string>
+    <string name="discoverbutton">DISCOVER</string>
+    <string name="camerabutton">CAMERA</string>
 
 </resources>

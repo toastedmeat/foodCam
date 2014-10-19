@@ -2,12 +2,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.foodCamHack.foodcam.MainActivity" >
+    android:orientation="vertical"
+    android:weightSum="3" >
 
-    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/explorebutton"
+        android:layout_weight="1"
+        android:textSize="30dp" 
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#70DBDB" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/discoverbutton"
+        android:layout_weight="1"
+        android:textSize="30dp" 
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#FFAD85" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/camerabutton"
+        android:layout_weight="1"
+        android:textSize="30dp" 
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background=#D0D0D0"  />
 
 </LinearLayout>
