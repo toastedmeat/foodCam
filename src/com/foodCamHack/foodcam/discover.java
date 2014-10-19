@@ -14,6 +14,11 @@ public class discover extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.discover_screen);
 		
+		int currentAPIVersion = android.os.Build.VERSION.SDK_INT;
+		if(currentAPIVersion >= android.os.Build.VERSION_CODES.HONEYCOMB){
+			getActionBar().setDisplayHomeAsUpEnabled(true);			
+		}
+		setContentView(R.layout.explore_screen);
 		
 	}
 
