@@ -21,11 +21,9 @@ public class discover extends Activity {
 		int currentAPIVersion = android.os.Build.VERSION.SDK_INT;
 		if(currentAPIVersion >= android.os.Build.VERSION_CODES.HONEYCOMB){
 			getActionBar().setDisplayHomeAsUpEnabled(true);	
-			getActionBar().setTitle("Discover");
+			getActionBar().setTitle("DISCOVER");
 			getActionBar().setBackgroundDrawable(new ColorDrawable(0xFFFFAD85));
 		}
-		setContentView(R.layout.explore_screen);
-		
 	}
 
 }
