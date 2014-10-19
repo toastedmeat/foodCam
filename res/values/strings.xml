@@ -7,5 +7,5 @@
     <string name="explorebutton">EXPLORE</string>
     <string name="discoverbutton">DISCOVER</string>
     <string name="camerabutton">CAMERA</string>
-
+	<string name="Capture">Capture</string>
 </resources>
