@@ -35,7 +35,7 @@
         <activity
             android:name=".explore"
             android:label="@string/app_name"
-            android:parentActivityName=".menu">
+            android:parentActivityName=".menu" >
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
             android:name="android.support.PARENT_ACTIVITY"
