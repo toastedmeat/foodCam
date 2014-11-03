@@ -2,8 +2,6 @@ package com.foodCamHack.foodcam;
 
 import java.io.IOException;
 
-import java.io.IOException;
-
 import android.content.Context;
 import android.hardware.Camera;
 import android.view.SurfaceHolder;

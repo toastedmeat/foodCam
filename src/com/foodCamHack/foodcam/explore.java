@@ -3,7 +3,6 @@ package com.foodCamHack.foodcam;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
-import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
@@ -17,6 +16,7 @@ import android.widget.Gallery;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+@SuppressWarnings("deprecation")
 public class explore extends Activity {
 	
 	private Integer[] pics = { R.drawable.antartica1, R.drawable.antartica2,
