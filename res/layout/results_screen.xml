@@ -8,6 +8,6 @@
         android:id="@+id/resultsText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Discover Screen!!" />
+        android:text="Results Screen!!" />
 
 </LinearLayout>

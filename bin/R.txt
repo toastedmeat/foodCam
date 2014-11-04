@@ -306,6 +306,7 @@ int id normal 0x7f050000
 int id progress_circular 0x7f050018
 int id progress_horizontal 0x7f050019
 int id radio 0x7f05002f
+int id resultsText 0x7f050041
 int id search_badge 0x7f050032
 int id search_bar 0x7f050031
 int id search_button 0x7f050033
@@ -323,7 +324,6 @@ int id showTitle 0x7f050006
 int id split_action_bar 0x7f05001e
 int id submit_area 0x7f050039
 int id tabMode 0x7f050002
-int id textView1 0x7f050041
 int id title 0x7f05002b
 int id top_action_bar 0x7f050020
 int id up 0x7f050021
@@ -358,8 +358,9 @@ int layout activity_main 0x7f030018
 int layout camera_screen 0x7f030019
 int layout discover_screen 0x7f03001a
 int layout explore_screen 0x7f03001b
-int layout splash 0x7f03001c
-int layout support_simple_spinner_dropdown_item 0x7f03001d
+int layout results_screen 0x7f03001c
+int layout splash 0x7f03001d
+int layout support_simple_spinner_dropdown_item 0x7f03001e
 int menu main 0x7f0d0000
 int string Capture 0x7f0a0013
 int string abc_action_bar_home_description 0x7f0a0001
